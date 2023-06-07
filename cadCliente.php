@@ -42,9 +42,9 @@
                             <input class="form-control" type="text" id="txtCEP" placeholder=" " />
                             <label for="txtCEP">CEP</label>
                         </div>
-                        <div class="mb-3 col-md-6 col-lg-8 align-self-end">
-                            <textarea class="form-control text-muted bg-light" style="height: 58px; font-size: 14px;"
-                                disabled>Digite o CEP para buscarmos o endereço.</textarea>
+                        <div class="form-floating mb-3 col-md-6 col-lg-8">
+                            <input class="form-control" type="text" id="txtCEP" placeholder=" " />
+                            <label for="txtCEP">Endereço</label>
                         </div>
                         <div class="clearfix"></div>
                         <div class="form-floating mb-3 col-md-4">

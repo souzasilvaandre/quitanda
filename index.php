@@ -43,6 +43,9 @@
                     <div class="align-self-end">
                         <ul class="navbar-nav">
                             <li class="nav-item">
+                                <a href="index.php?link=9" class="nav-link text-white">Cadastro de produto</a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="index.php?link=2" class="nav-link text-white">Quero Me Cadastrar</a>
                             </li>
                             <li class="nav-item">
@@ -97,7 +100,7 @@
         <main class="flex-fill">
             <div class="container">
                 <div class="row">
-                    
+
                     <?php
                     $link = @$_GET['link'];
                     $pag[1] = 'principal.php';
@@ -107,6 +110,8 @@
                     $pag[5] = 'contato.php';
                     $pag[6] = 'cadastrarNovaSenha.php';
                     $pag[7] = 'carrinho.php';
+                    $pag[8] = 'produto.php';
+                    $pag[9] = 'cadastroProduto.php';
 
 
                     if (!empty($link)) {
